@@ -4,45 +4,45 @@ import { getRandomIntInclusive } from './util.service.js'
 
 
 
-export const marketService = {
+export const eventService = {
     query,
     getById,
     save,
     remove,
-    getEmptyMarket,
-    addMarketMsg
+    getEmptyEvent,
+    addEventMsg
 }
-window.cs = marketService
+window.cs = eventService
 
 
 async function query(filterBy = { txt: '', price: 0 }) {
-    return httpService.get('market', filterBy)
+    return httpService.get('event', filterBy)
 }
-function getById(marketId) {
-    return httpService.get(`market/${marketId}`)
+function getById(eventId) {
+    return httpService.get(`event/${eventId}`)
 }
 
-async function remove(marketId) {
-    return httpService.delete(`market/${marketId}`)
+async function remove(eventId) {
+    return httpService.delete(`event/${eventId}`)
 }
-async function save(market) {
-    var savedMarket
-    if (market._id) {
-        savedMarket = await httpService.put(`market/${market._id}`, market)
+async function save(event) {
+    var savedEvent
+    if (event._id) {
+        savedEvent = await httpService.put(`event/${event._id}`, event)
 
     } else {
-        savedMarket = await httpService.post('market', market)
+        savedEvent = await httpService.post('event', event)
     }
-    return savedMarket
+    return savedEvent
 }
 
-async function addMarketMsg(marketId, txt) {
-    const savedMsg = await httpService.post(`market/${marketId}/msg`, { txt })
+async function addEventMsg(eventId, txt) {
+    const savedMsg = await httpService.post(`event/${eventId}/msg`, { txt })
     return savedMsg
 }
 
 
-function getEmptyMarket() {
+function getEmptyEvent() {
     return {
         vendor: 'Susita-' + (Date.now() % 1000),
         price: getRandomIntInclusive(1000, 9000),

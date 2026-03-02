@@ -1,51 +1,51 @@
-import { marketService } from './services/market.service.js'
+import { eventService } from './services/event.service.js'
 import { userService } from './services/user.service.js'
 import { prettyJSON } from './services/util.service.js'
 
 console.log('Simple driver to test some API calls')
 
-window.onLoadMarkets = onLoadMarkets
+window.onLoadEvents = onLoadEvents
 window.onLoadUsers = onLoadUsers
-window.onAddMarket = onAddMarket
-window.onGetMarketById = onGetMarketById
-window.onRemoveMarket = onRemoveMarket
-window.onAddMarketMsg = onAddMarketMsg
+window.onAddEvent = onAddEvent
+window.onGetEventById = onGetEventById
+window.onRemoveEvent = onRemoveEvent
+window.onAddEventMsg = onAddEventMsg
 
-async function onLoadMarkets() {
-    const markets = await marketService.query()
-    render('Markets', markets)
+async function onLoadEvents() {
+    const events = await eventService.query()
+    render('Events', events)
 }
 async function onLoadUsers() {
     const users = await userService.query()
     render('Users', users)
 }
 
-async function onGetMarketById() {
-    const id = prompt('Market id?')
+async function onGetEventById() {
+    const id = prompt('Event id?')
     if (!id) return
-    const market = await marketService.getById(id)
-    render('Market', market)
+    const event = await eventService.getById(id)
+    render('Event', event)
 }
 
-async function onRemoveMarket() {
-    const id = prompt('Market id?')
+async function onRemoveEvent() {
+    const id = prompt('Event id?')
     if (!id) return
-    await marketService.remove(id)
-    render('Removed Market')
+    await eventService.remove(id)
+    render('Removed Event')
 }
 
-async function onAddMarket() {
+async function onAddEvent() {
     await userService.login({ username: 'puki', password: '123' })
-    const savedMarket = await marketService.save(marketService.getEmptyMarket())
-    render('Saved Market', savedMarket)
+    const savedEvent = await eventService.save(eventService.getEmptyEvent())
+    render('Saved Event', savedEvent)
 }
 
-async function onAddMarketMsg() {
+async function onAddEventMsg() {
     await userService.login({ username: 'puki', password: '123' })
-    const id = prompt('Market id?')
+    const id = prompt('Event id?')
     if (!id) return
 
-    const savedMsg = await marketService.addMarketMsg(id, 'some msg')
+    const savedMsg = await eventService.addEventMsg(id, 'some msg')
     render('Saved Msg', savedMsg)
 }
 

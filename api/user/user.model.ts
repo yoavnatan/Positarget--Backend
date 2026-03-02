@@ -7,9 +7,19 @@ export interface User {
     username: string
     imgUrl?: string
     password?: string
+
+    cash?: number          // יתרת מזומן
+    portfolio?: Position[] // החזקות לפי מרקט
 }
 
 export type UserFilter = {
     txt?: string
 }
 
+
+export type Position = {
+    eventId: string
+    outcome: 'YES' | 'NO'
+    shares: number
+    avgPrice: number
+}

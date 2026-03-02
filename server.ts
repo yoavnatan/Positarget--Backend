@@ -6,7 +6,7 @@ import cookieParser from 'cookie-parser'
 
 import { authRoutes } from './api/auth/auth.routes.js'
 import { userRoutes } from './api/user/user.routes.js'
-import { marketRoutes } from './api/market/market.routes.js'
+import { eventRoutes } from './api/event/event.routes.js'
 
 import { setupAsyncLocalStorage } from './middlewares/setupAls.middleware.js'
 
@@ -34,7 +34,7 @@ app.all('*all', setupAsyncLocalStorage)
 
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
-app.use('/api/market', marketRoutes)
+app.use('/api/event', eventRoutes)
 
 
 // Make every unhandled server-side-route match index.html
