@@ -2,7 +2,7 @@ import configProd from './prod.js'
 import configDev from './dev.js'
 
 export interface Config {
-  dbURL: string
+  dbURL: string | undefined
   dbName: string
   isGuestMode?: boolean
 }

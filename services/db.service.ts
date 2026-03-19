@@ -22,7 +22,7 @@ async function _connect() {
 	if (dbConn) return dbConn
 
 	try {
-		const client = await MongoClient.connect(config.dbURL)
+		const client = await MongoClient.connect(config.dbURL!)
 		return dbConn = client.db(config.dbName)
 	} catch (err) {
 		logger.error('Cannot Connect to DB', err)

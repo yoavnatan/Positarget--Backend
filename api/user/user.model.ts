@@ -10,16 +10,24 @@ export interface User {
 
     cash?: number          // יתרת מזומן
     portfolio?: Position[] // החזקות לפי מרקט
+    favoriteEvents?: string[] // רשימת אירועים מועדפים
+    selectedOutcome?: string // תוצאה נבחרת למסחר
+}
+
+export interface UserCred {
+    username?: string
+    email?: string
+    password: string
+}
+
+export type Position = {
+    eventId?: string
+    marketId: string
+    outcome: string
+    shares: number
+    avgPrice: number
 }
 
 export type UserFilter = {
-    txt?: string
-}
-
-
-export type Position = {
-    eventId: string
-    outcome: 'YES' | 'NO'
-    shares: number
-    avgPrice: number
+    txt: string
 }

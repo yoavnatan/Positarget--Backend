@@ -1,288 +1,1351 @@
-14.12.2025, 17:11:31 - INFO - Server is running on port: 3030
-14.12.2025, 17:12:07 - INFO - New connected socket [id: iLhFgbt3DP-i-q6SAAAB]
-14.12.2025, 17:12:10 - INFO - /api/event | GET |  | {}
-14.12.2025, 17:12:10 - INFO - /api/event | GET |  | {}
-14.12.2025, 17:14:57 - INFO - /api/event | GET |  | {"id":"6668c400093d89b25d071959"}
-14.12.2025, 17:15:02 - INFO - /api/event | GET |  | {}
-14.12.2025, 17:15:02 - INFO - /api/event | GET |  | {}
-14.12.2025, 17:16:04 - INFO - Server is running on port: 3030
-14.12.2025, 17:16:05 - INFO - New connected socket [id: 0JrLyXkLN3bSt6kNAAAB]
-14.12.2025, 17:16:08 - INFO - /api/review | GET |  | {}
-14.12.2025, 17:16:08 - ERROR - Cannot get reviews | TypeError: Converting circular structure to JSON
-    --> starting at object with constructor 'MongoClient'
-    |     property 's' -> object with constructor 'Object'
-    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
-    --- property 'client' closes the circle
-14.12.2025, 17:16:30 - INFO - Server is running on port: 3030
-14.12.2025, 17:16:30 - INFO - New connected socket [id: wNo_pnj6yzE2LFWsAAAB]
-14.12.2025, 17:16:34 - INFO - /api/review | GET |  | {}
-14.12.2025, 17:17:02 - INFO - Server is running on port: 3030
-14.12.2025, 17:17:03 - INFO - New connected socket [id: BNm8LWI9dOHY11uEAAAB]
-14.12.2025, 17:17:09 - INFO - /api/review | GET |  | {}
-14.12.2025, 17:17:09 - ERROR - Cannot get reviews | TypeError: Converting circular structure to JSON
-    --> starting at object with constructor 'MongoClient'
-    |     property 's' -> object with constructor 'Object'
-    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
-    --- property 'client' closes the circle
-14.12.2025, 17:17:29 - INFO - Server is running on port: 3030
-14.12.2025, 17:17:30 - INFO - /api/review | GET |  | {}
-14.12.2025, 17:17:30 - INFO - New connected socket [id: jJ5yhwtsbL63ngQsAAAB]
-14.12.2025, 17:17:59 - INFO - Server is running on port: 3030
-14.12.2025, 17:18:00 - INFO - /api/review | GET |  | {}
-14.12.2025, 17:18:00 - ERROR - Cannot get reviews | TypeError: Converting circular structure to JSON
-    --> starting at object with constructor 'MongoClient'
-    |     property 's' -> object with constructor 'Object'
-    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
-    --- property 'client' closes the circle
-14.12.2025, 17:18:01 - INFO - New connected socket [id: UFoQ5hRA_7PQVTYqAAAB]
-14.12.2025, 17:19:12 - INFO - Server is running on port: 3030
-14.12.2025, 17:19:12 - INFO - New connected socket [id: hG7aZYaAihGKtaf5AAAB]
-14.12.2025, 17:19:13 - INFO - /api/review | GET |  | {}
-14.12.2025, 17:19:13 - ERROR - Cannot get reviews | TypeError: Converting circular structure to JSON
-    --> starting at object with constructor 'MongoClient'
-    |     property 's' -> object with constructor 'Object'
-    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
-    --- property 'client' closes the circle
-14.12.2025, 17:20:46 - INFO - Server is running on port: 3030
-14.12.2025, 17:20:47 - INFO - New connected socket [id: UY8aU_xEMXXZkHZlAAAB]
-14.12.2025, 17:20:48 - INFO - /api/review | GET |  | {}
-14.12.2025, 17:21:12 - INFO - Server is running on port: 3030
-14.12.2025, 17:21:13 - INFO - New connected socket [id: hLHEDOjwElgUzCOSAAAB]
-14.12.2025, 17:23:29 - INFO - /api/review | GET |  | {}
-14.12.2025, 17:25:33 - INFO - Server is running on port: 3030
-14.12.2025, 17:25:34 - INFO - /api/review | GET |  | {}
-14.12.2025, 17:25:34 - INFO - New connected socket [id: OlL7H8xN9cNzt06LAAAB]
-14.12.2025, 17:25:44 - INFO - Server is running on port: 3030
-14.12.2025, 17:25:45 - INFO - New connected socket [id: WbwfV7qkdR4iuC3tAAAB]
-14.12.2025, 17:25:45 - INFO - /api/review | GET |  | {}
-14.12.2025, 17:26:01 - INFO - Server is running on port: 3030
-14.12.2025, 17:26:02 - INFO - /api/review | GET |  | {}
-14.12.2025, 17:26:02 - INFO - New connected socket [id: bbjlQpxR7aGn2PBYAAAB]
-14.12.2025, 17:26:10 - INFO - Server is running on port: 3030
-14.12.2025, 17:26:11 - INFO - /api/review | GET |  | {}
-14.12.2025, 17:26:11 - INFO - New connected socket [id: VGZ1kquSLj1DZuYLAAAB]
-15.12.2025, 9:34:55 - INFO - Server is running on port: 3030
-15.12.2025, 9:35:25 - INFO - New connected socket [id: GyHaRuJCFcdKSuv7AAAB]
-15.12.2025, 9:35:38 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:35:38 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:49:26 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:49:26 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:49:34 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:49:39 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:49:40 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:49:40 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:49:41 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:49:41 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:49:43 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:49:43 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:49:43 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:49:44 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:49:44 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:49:44 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:49:47 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:49:49 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:49:50 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:49:51 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:49:52 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:49:57 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:50:05 - INFO - /api/review | GET |  | {}
-15.12.2025, 9:50:20 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:50:20 - INFO - /api/event | GET |  | {}
-15.12.2025, 9:50:25 - DEBUG - auth.service - login with username: bob
-15.12.2025, 9:50:25 - INFO - User login:  | {"_id":"664f8261e6205c622dbc14e2","username":"bob","fullname":"bob","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","score":660,"isAdmin":true}
-15.12.2025, 9:50:25 - INFO - Setting socket.userId = 664f8261e6205c622dbc14e2 for socket [id: GyHaRuJCFcdKSuv7AAAB]
-15.12.2025, 9:50:30 - INFO - user-watch from socket [id: GyHaRuJCFcdKSuv7AAAB], on user 664f8261e6205c622dbc14e2
-15.12.2025, 9:50:37 - INFO - /api/review | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 9:51:48 - INFO - /api/event | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 9:51:48 - INFO - /api/event | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 9:51:52 - INFO - /api/event | GET |  | {"id":"6655e6883660ea02bdfbb955"} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:06:03 - INFO - /api/review | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:06:26 - INFO - user-watch from socket [id: GyHaRuJCFcdKSuv7AAAB], on user 664f8261e6205c622dbc14e2
-15.12.2025, 10:06:45 - INFO - /api/review | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:06:49 - INFO - user-watch from socket [id: GyHaRuJCFcdKSuv7AAAB], on user 664f8261e6205c622dbc14e2
-15.12.2025, 10:07:27 - INFO - /api/review | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:10:36 - INFO - /api/review | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:11:41 - INFO - Server is running on port: 3030
-15.12.2025, 10:11:42 - INFO - /api/review | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:11:42 - INFO - New connected socket [id: 3-0vO4OVTUpn98MCAAAB]
-15.12.2025, 10:14:06 - INFO - Server is running on port: 3030
-15.12.2025, 10:14:07 - INFO - New connected socket [id: hAXx6dJdlnBFSAXXAAAB]
-15.12.2025, 10:14:19 - INFO - /api/review | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:16:16 - INFO - /api/review | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:16:23 - INFO - Server is running on port: 3030
-15.12.2025, 10:16:24 - INFO - New connected socket [id: NA9gPtQLyhGZxCxvAAAB]
-15.12.2025, 10:16:25 - INFO - /api/review | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:19:40 - INFO - Server is running on port: 3030
-15.12.2025, 10:19:41 - INFO - New connected socket [id: tBBTTYayi9I9mcjFAAAB]
-15.12.2025, 10:19:50 - INFO - /api/review | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:20:30 - INFO - Server is running on port: 3030
-15.12.2025, 10:20:31 - INFO - New connected socket [id: PVUCG9PaPEoGM6UTAAAB]
-15.12.2025, 10:20:32 - INFO - /api/review | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:20:56 - INFO - Server is running on port: 3030
-15.12.2025, 10:20:57 - INFO - /api/review | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:20:57 - INFO - New connected socket [id: oBDocpkh2EjI8CZxAAAB]
-15.12.2025, 10:22:40 - INFO - Server is running on port: 3030
-15.12.2025, 10:22:42 - INFO - New connected socket [id: B3G1llmhLm-eQ1TfAAAB]
-15.12.2025, 10:23:12 - INFO - /api/review | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:27:57 - INFO - user-watch from socket [id: B3G1llmhLm-eQ1TfAAAB], on user 6673ed567b3a8ae2e598215a
-15.12.2025, 10:32:46 - INFO - /api/review | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:54:21 - INFO - Socket disconnected [id: undefined]
-15.12.2025, 10:54:22 - INFO - New connected socket [id: gL0h0axumm_qa3x1AAAD]
-15.12.2025, 10:54:22 - INFO - /api/review | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:54:22 - INFO - Setting socket.userId = 664f8261e6205c622dbc14e2 for socket [id: gL0h0axumm_qa3x1AAAD]
-15.12.2025, 10:55:09 - INFO - Socket disconnected [id: undefined]
-15.12.2025, 10:55:09 - INFO - New connected socket [id: UN3Mh2MssdoUwKJQAAAF]
-15.12.2025, 10:55:10 - INFO - /api/review | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:55:10 - INFO - Setting socket.userId = 664f8261e6205c622dbc14e2 for socket [id: UN3Mh2MssdoUwKJQAAAF]
-15.12.2025, 10:55:31 - INFO - /api/event | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:55:31 - INFO - /api/event | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:55:32 - INFO - /api/event | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:55:52 - INFO - /api/event | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:56:02 - INFO - Socket disconnected [id: undefined]
-15.12.2025, 10:56:29 - INFO - New connected socket [id: BWwdFKdCg3iEBe03AAAH]
-15.12.2025, 10:56:29 - INFO - /api/event | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:56:29 - INFO - /api/event | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 10:56:29 - INFO - Setting socket.userId = 664f8261e6205c622dbc14e2 for socket [id: BWwdFKdCg3iEBe03AAAH]
-15.12.2025, 10:56:52 - INFO - /api/event | GET |  | {} | 664f8261e6205c622dbc14e2
-15.12.2025, 11:03:11 - INFO - Socket disconnected [id: undefined]
-24.12.2025, 18:06:19 - INFO - Server is running on port: 3030
-24.12.2025, 18:06:30 - INFO - New connected socket [id: Y2b0BF64Pxr_XMlMAAAB]
-24.12.2025, 18:07:23 - INFO - /api/review | GET |  | {}
-24.12.2025, 18:07:35 - INFO - /api/event | GET |  | {}
-24.12.2025, 18:07:53 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:07:53 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:07:53 - ERROR - cannot get reviews | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:07:53 - ERROR - Cannot get reviews | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:07:53 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:07:53 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:07:53 - ERROR - cannot find users | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:07:53 - ERROR - Failed to get users | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:07:55 - INFO - /api/event | GET |  | {}
-24.12.2025, 18:08:05 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:08:05 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:08:05 - ERROR - Failed to get events | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:08:05 - ERROR - cannot find events | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:08:21 - INFO - /api/event | GET |  | {}
-24.12.2025, 18:08:25 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:08:25 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:08:25 - ERROR - Failed to get events | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:08:25 - ERROR - cannot find events | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:08:41 - INFO - /api/event | GET |  | {}
-24.12.2025, 18:08:51 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:08:51 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:08:51 - ERROR - cannot find events | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:08:51 - ERROR - Failed to get events | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:09:11 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:09:11 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:09:11 - ERROR - Failed to get events | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:09:11 - ERROR - cannot find events | MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
-24.12.2025, 18:09:46 - INFO - Socket disconnected [id: undefined]
-24.12.2025, 18:11:31 - INFO - Server is running on port: 3030
-24.12.2025, 18:11:39 - INFO - New connected socket [id: rtlTWVR2DZ-Ia69XAAAB]
-24.12.2025, 18:11:42 - INFO - /api/event | GET |  | {}
-24.12.2025, 18:11:42 - INFO - /api/event | GET |  | {}
-24.12.2025, 18:11:47 - INFO - /api/review | GET |  | {}
-24.12.2025, 18:14:46 - DEBUG - auth.service - login with username: bob
-24.12.2025, 18:14:46 - INFO - User login:  | {"_id":"664f8261e6205c622dbc14e2","username":"bob","fullname":"bob","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","score":660,"isAdmin":true}
-24.12.2025, 18:14:46 - INFO - Setting socket.userId = 664f8261e6205c622dbc14e2 for socket [id: rtlTWVR2DZ-Ia69XAAAB]
-24.12.2025, 18:14:49 - INFO - Removing socket.userId for socket [id: rtlTWVR2DZ-Ia69XAAAB]
-24.12.2025, 18:14:58 - DEBUG - auth.service - login with username: toto
-24.12.2025, 18:14:58 - INFO - User login:  | {"_id":"6673ed567b3a8ae2e598215a","username":"toto","fullname":"toto","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":true,"score":310}
-24.12.2025, 18:14:58 - INFO - Setting socket.userId = 6673ed567b3a8ae2e598215a for socket [id: rtlTWVR2DZ-Ia69XAAAB]
-24.12.2025, 18:15:00 - INFO - Removing socket.userId for socket [id: rtlTWVR2DZ-Ia69XAAAB]
-24.12.2025, 18:15:05 - DEBUG - auth.service - login with username: nana
-24.12.2025, 18:15:05 - INFO - User login:  | {"_id":"664f82f9e6205c622dbc14e5","username":"nana","fullname":"nana","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","score":190,"isAdmin":true}
-24.12.2025, 18:15:05 - INFO - Setting socket.userId = 664f82f9e6205c622dbc14e5 for socket [id: rtlTWVR2DZ-Ia69XAAAB]
-24.12.2025, 18:15:07 - INFO - Removing socket.userId for socket [id: rtlTWVR2DZ-Ia69XAAAB]
-24.12.2025, 18:15:13 - DEBUG - auth.service - login with username: dod
-24.12.2025, 18:15:13 - INFO - User login:  | {"_id":"664f82a3e6205c622dbc14e3","username":"dod","fullname":"dod","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","score":50,"isAdmin":false}
-24.12.2025, 18:15:13 - INFO - Setting socket.userId = 664f82a3e6205c622dbc14e3 for socket [id: rtlTWVR2DZ-Ia69XAAAB]
-24.12.2025, 18:15:16 - INFO - user-watch from socket [id: rtlTWVR2DZ-Ia69XAAAB], on user 664f82a3e6205c622dbc14e3
-24.12.2025, 18:15:18 - INFO - Removing socket.userId for socket [id: rtlTWVR2DZ-Ia69XAAAB]
-24.12.2025, 18:49:14 - INFO - /api/event | GET |  | {}
-24.12.2025, 18:49:15 - INFO - /api/event | GET |  | {}
-24.12.2025, 18:49:20 - INFO - /api/event | GET |  | {"id":"6668c400093d89b25d071959"}
-24.12.2025, 18:50:38 - INFO - /api/event | GET |  | {}
-24.12.2025, 18:50:39 - INFO - /api/event | GET |  | {}
-24.12.2025, 18:50:53 - INFO - /api/event | GET |  | {}
-24.12.2025, 18:50:56 - INFO - /api/event | GET |  | {}
-24.12.2025, 18:50:58 - INFO - /api/event | GET |  | {}
-24.12.2025, 18:51:00 - INFO - /api/event | GET |  | {}
-24.12.2025, 18:51:01 - INFO - /api/event | GET |  | {}
-24.12.2025, 18:51:02 - INFO - /api/event | GET |  | {}
-24.12.2025, 18:51:16 - DEBUG - auth.service - login with username: bob
-24.12.2025, 18:51:16 - INFO - User login:  | {"_id":"664f8261e6205c622dbc14e2","username":"bob","fullname":"bob","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","score":660,"isAdmin":true}
-24.12.2025, 18:51:16 - INFO - Setting socket.userId = 664f8261e6205c622dbc14e2 for socket [id: rtlTWVR2DZ-Ia69XAAAB]
-24.12.2025, 18:51:25 - INFO - /api/event | GET |  | {} | 664f8261e6205c622dbc14e2
-24.12.2025, 18:51:25 - INFO - /api/event | GET |  | {} | 664f8261e6205c622dbc14e2
-24.12.2025, 18:51:33 - INFO - Removing socket.userId for socket [id: rtlTWVR2DZ-Ia69XAAAB]
-24.12.2025, 18:51:38 - DEBUG - auth.service - login with username: dod
-24.12.2025, 18:51:38 - INFO - User login:  | {"_id":"664f82a3e6205c622dbc14e3","username":"dod","fullname":"dod","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","score":50,"isAdmin":false}
-24.12.2025, 18:51:38 - INFO - Setting socket.userId = 664f82a3e6205c622dbc14e3 for socket [id: rtlTWVR2DZ-Ia69XAAAB]
-24.12.2025, 18:51:41 - INFO - /api/event | GET |  | {} | 664f82a3e6205c622dbc14e3
-24.12.2025, 18:51:41 - INFO - /api/event | GET |  | {} | 664f82a3e6205c622dbc14e3
-24.12.2025, 18:51:49 - INFO - Removing socket.userId for socket [id: rtlTWVR2DZ-Ia69XAAAB]
-24.12.2025, 18:51:54 - DEBUG - auth.service - login with username: stu
-24.12.2025, 18:51:54 - INFO - User login:  | {"_id":"6693d014cf656564da81a00d","username":"stu","fullname":"stu","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false,"score":140}
-24.12.2025, 18:51:54 - INFO - Setting socket.userId = 6693d014cf656564da81a00d for socket [id: rtlTWVR2DZ-Ia69XAAAB]
-24.12.2025, 18:51:57 - INFO - /api/event | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 18:51:57 - INFO - /api/event | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 18:54:35 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 18:55:38 - INFO - /api/event | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 18:55:43 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 18:58:17 - INFO - Server is running on port: 3030
-24.12.2025, 18:58:18 - INFO - New connected socket [id: sx87h8hJYc-KxDlkAAAB]
-24.12.2025, 18:58:19 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 18:59:27 - INFO - Server is running on port: 3030
-24.12.2025, 18:59:28 - INFO - New connected socket [id: dx7qQ0p1xkbyMZu-AAAB]
-24.12.2025, 18:59:41 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 19:00:30 - INFO - Server is running on port: 3030
-24.12.2025, 19:00:31 - INFO - New connected socket [id: YMNt51hFltrzboXgAAAB]
-24.12.2025, 19:01:31 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 19:05:37 - INFO - Server is running on port: 3030
-24.12.2025, 19:05:37 - INFO - New connected socket [id: tNBMVW6tywIwRyDiAAAB]
-24.12.2025, 19:05:38 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 19:06:39 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 19:06:40 - INFO - Server is running on port: 3030
-24.12.2025, 19:06:41 - INFO - New connected socket [id: 8umAPuysow_d9RvCAAAB]
-24.12.2025, 19:06:54 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 19:07:34 - INFO - Server is running on port: 3030
-24.12.2025, 19:07:35 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 19:07:35 - INFO - New connected socket [id: otc1_-XSefs5hGJkAAAB]
-24.12.2025, 19:08:00 - INFO - Server is running on port: 3030
-24.12.2025, 19:08:01 - INFO - New connected socket [id: hSEP7QIiqN7C6wTeAAAB]
-24.12.2025, 19:08:02 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 19:08:41 - INFO - Server is running on port: 3030
-24.12.2025, 19:08:42 - INFO - New connected socket [id: az7BgQXayrNzr3ctAAAB]
-24.12.2025, 19:08:44 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 19:10:22 - INFO - Server is running on port: 3030
-24.12.2025, 19:10:23 - INFO - New connected socket [id: Utu452B6yhV-wQQBAAAB]
-24.12.2025, 19:11:03 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 19:13:27 - INFO - user-watch from socket [id: Utu452B6yhV-wQQBAAAB], on user 6693d014cf656564da81a00d
-24.12.2025, 19:14:13 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 19:14:21 - INFO - user-watch from socket [id: Utu452B6yhV-wQQBAAAB], on user 6673ed567b3a8ae2e598215a
-24.12.2025, 19:17:24 - INFO - Server is running on port: 3030
-24.12.2025, 19:17:25 - INFO - New connected socket [id: o9ZU-OFL6gBAi2kcAAAB]
-24.12.2025, 19:17:26 - INFO - Socket disconnected [id: undefined]
-24.12.2025, 19:17:26 - INFO - New connected socket [id: ct7qJXai74SbqylRAAAD]
-24.12.2025, 19:17:26 - INFO - Setting socket.userId = 6693d014cf656564da81a00d for socket [id: ct7qJXai74SbqylRAAAD]
-24.12.2025, 19:17:26 - INFO - user-watch from socket [id: ct7qJXai74SbqylRAAAD], on user 6673ed567b3a8ae2e598215a
-24.12.2025, 19:19:00 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 19:19:36 - INFO - user-watch from socket [id: ct7qJXai74SbqylRAAAD], on user 664f82f9e6205c622dbc14e5
-24.12.2025, 19:19:37 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 19:19:47 - INFO - user-watch from socket [id: ct7qJXai74SbqylRAAAD], on user 6673ed567b3a8ae2e598215a
-24.12.2025, 19:20:27 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 19:20:30 - INFO - user-watch from socket [id: ct7qJXai74SbqylRAAAD], on user 6673ed567b3a8ae2e598215a
-24.12.2025, 19:20:52 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 19:21:00 - INFO - user-watch from socket [id: ct7qJXai74SbqylRAAAD], on user 6673ed567b3a8ae2e598215a
-24.12.2025, 19:21:22 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 19:21:24 - INFO - user-watch from socket [id: ct7qJXai74SbqylRAAAD], on user 6673ed567b3a8ae2e598215a
-24.12.2025, 19:21:28 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 19:22:06 - INFO - user-watch from socket [id: ct7qJXai74SbqylRAAAD], on user 6673ed567b3a8ae2e598215a
-24.12.2025, 19:32:25 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 19:34:33 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 19:37:11 - INFO - Socket disconnected [id: undefined]
-24.12.2025, 19:38:08 - INFO - New connected socket [id: QIA9SvTbz0l6PpglAAAF]
-24.12.2025, 19:38:13 - INFO - /api/event | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 19:38:13 - INFO - /api/event | GET |  | {} | 6693d014cf656564da81a00d
-24.12.2025, 19:38:14 - INFO - /api/review | GET |  | {} | 6693d014cf656564da81a00d
+19.3.2026, 18:36:07 - INFO - Server is running on port: 3030
+19.3.2026, 18:42:33 - DEBUG - auth.service - signup with username: guest_2101_1773938553974, email: guest_2101@guest.com
+19.3.2026, 18:42:34 - DEBUG - auth.service - login with username: guest_2101_1773938553974 | 69bc277ac00f593576f3c290
+19.3.2026, 18:42:34 - ERROR - Failed to Login Error: Invalid username or password | 69bc277ac00f593576f3c290
+19.3.2026, 18:42:53 - DEBUG - auth.service - signup with username: guest_987_1773938573887, email: guest_987@guest.com | 69bc277ac00f593576f3c290
+19.3.2026, 18:42:54 - DEBUG - auth.service - login with username: guest_987_1773938573887 | 69bc278dc00f593576f3c291
+19.3.2026, 18:42:54 - ERROR - Failed to Login Error: Invalid username or password | 69bc278dc00f593576f3c291
+19.3.2026, 18:43:02 - DEBUG - auth.service - login with username: yoav | 69bc278dc00f593576f3c291
+19.3.2026, 18:43:02 - ERROR - Failed to Login Error: Invalid username or password | 69bc278dc00f593576f3c291
+19.3.2026, 18:43:13 - DEBUG - auth.service - signup with username: yoav, email: yoav | 69bc278dc00f593576f3c291
+19.3.2026, 18:43:14 - DEBUG - auth.route - new account created: {"username":"yoav","password":"$2b$10$wnnub6Q1PCjquDkheRhVq.qJxW7wNv3ypj7Eto9rDw0HY9iMDW1C2","email":"yoav","_id":"69bc27a2c00f593576f3c292"} | 69bc278dc00f593576f3c291
+19.3.2026, 18:43:14 - DEBUG - auth.service - login with username: yoav | 69bc278dc00f593576f3c291
+19.3.2026, 18:43:14 - INFO - User signup: | {"_id":"69bc27a2c00f593576f3c292","username":"yoav","firstName":null,"lastName":null,"imgUrl":null,"isAdmin":null,"email":"yoav"} | 69bc278dc00f593576f3c291
+19.3.2026, 18:49:42 - DEBUG - auth.service - signup with username: guest_1031_1773938982598, email: guest_1031@guest.com
+19.3.2026, 18:49:42 - DEBUG - auth.service - login with username: guest_1031_1773938982598 | 69bc2926c00f593576f3c293
+19.3.2026, 18:49:42 - ERROR - Failed to Login Error: Invalid username or password | 69bc2926c00f593576f3c293
+19.3.2026, 18:50:11 - DEBUG - auth.service - signup with username: guest_8725_1773939011446, email: guest_8725@guest.com | 69bc2926c00f593576f3c293
+19.3.2026, 18:50:11 - DEBUG - auth.service - login with username: guest_8725_1773939011446 | 69bc2943c00f593576f3c294
+19.3.2026, 18:50:11 - ERROR - Failed to Login Error: Invalid username or password | 69bc2943c00f593576f3c294
+19.3.2026, 18:51:05 - ERROR - Error fetching comments for event 32225 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:00:34 - ERROR - Error fetching comments for event 30829 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:00:36 - ERROR - Error fetching comments for event 30829 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:00:41 - ERROR - Error fetching comments for event 31875 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:02:18 - ERROR - Error fetching comments for event 31875 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:03:15 - ERROR - Error fetching comments for event 31875 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:03:15 - ERROR - Error fetching event by id price-history | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:03:15 - ERROR - Failed to get event | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:03:15 - ERROR - Error fetching comments for event 31875 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:03:15 - ERROR - Error fetching event by id orderbook | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:03:15 - ERROR - Failed to get event | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:03:15 - ERROR - Error fetching event by id price-history | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:03:15 - ERROR - Failed to get event | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:03:32 - ERROR - Error fetching comments for event 31875 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:03:32 - ERROR - Error fetching comments for event 30829 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:03:32 - ERROR - Error fetching event by id price-history | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:03:32 - ERROR - Failed to get event | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:03:32 - ERROR - Error fetching event by id orderbook | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:03:32 - ERROR - Failed to get event | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:03:32 - ERROR - Error fetching event by id price-history | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:03:32 - ERROR - Failed to get event | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:03:32 - ERROR - Failed to get event | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:03:32 - ERROR - Error fetching event by id orderbook | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:06:20 - INFO - Server is running on port: 3030
+19.3.2026, 19:06:55 - INFO - Server is running on port: 3030
+19.3.2026, 19:07:12 - ERROR - Error fetching comments for event 30829 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:07:12 - ERROR - Error fetching event by id orderbook | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:07:12 - ERROR - Failed to get event | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:07:12 - ERROR - Error fetching event by id price-history | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:07:12 - ERROR - Failed to get event | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:07:27 - ERROR - Error fetching comments for event 30829 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:07:27 - ERROR - Error fetching event by id orderbook | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:07:27 - ERROR - Failed to get event | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:07:27 - ERROR - Error fetching event by id price-history | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:07:27 - ERROR - Failed to get event | AxiosError: Request failed with status code 422
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:159:15)
+    at async getEventById (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:26:17) | 69bc2943c00f593576f3c294
+19.3.2026, 19:10:34 - INFO - Server is running on port: 3030
+19.3.2026, 19:10:35 - ERROR - Error fetching comments for event 30829 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:10:46 - ERROR - Error fetching comments for event 30829 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:10:46 - ERROR - Error fetching comments for event 108633 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:10:57 - ERROR - Error fetching comments for event 108633 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:10:57 - ERROR - Error fetching comments for event 257217 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:10:58 - ERROR - Orderbook fetch error for token: 81700224441502279895744860210150597292892500701818042170914153071203092188995 | AxiosError: Request failed with status code 404
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at Unzip.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at Unzip.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:207:15)
+    at async getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:61:21) | 69bc2943c00f593576f3c294
+19.3.2026, 19:11:02 - ERROR - Orderbook fetch error for token: 35155791563073093388105433057474720524046300436349328949598023660411636547796 | AxiosError: Request failed with status code 404
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at Unzip.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at Unzip.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:207:15)
+    at async getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:61:21) | 69bc2943c00f593576f3c294
+19.3.2026, 19:11:04 - ERROR - Orderbook fetch error for token: 81700224441502279895744860210150597292892500701818042170914153071203092188995 | AxiosError: Request failed with status code 404
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at Unzip.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at Unzip.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:207:15)
+    at async getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:61:21) | 69bc2943c00f593576f3c294
+19.3.2026, 19:11:09 - ERROR - Orderbook fetch error for token: 97995793527747673117437501881110948686965659801515907258228119633803087003736 | AxiosError: Request failed with status code 404
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at Unzip.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at Unzip.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:207:15)
+    at async getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:61:21) | 69bc2943c00f593576f3c294
+19.3.2026, 19:11:14 - ERROR - Error fetching comments for event 257217 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:11:15 - ERROR - Error fetching comments for event 248032 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:11:16 - ERROR - Orderbook fetch error for token: 81700224441502279895744860210150597292892500701818042170914153071203092188995 | AxiosError: Request failed with status code 404
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at Unzip.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at Unzip.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:207:15)
+    at async getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:61:21) | 69bc2943c00f593576f3c294
+19.3.2026, 19:11:41 - ERROR - Error fetching comments for event 248032 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:11:50 - ERROR - Error fetching comments for event 248032 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:11:50 - ERROR - Error fetching comments for event 143443 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:12:33 - INFO - Server is running on port: 3030
+19.3.2026, 19:12:34 - ERROR - Error fetching comments for event 143443 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:12:35 - ERROR - Error fetching comments for event 33507 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:12:35 - ERROR - Orderbook fetch error for token: 42965146259929605797806965560632904263752338454817822438029661385790791701585 | AxiosError: Request failed with status code 404
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at Unzip.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at Unzip.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:207:15)
+    at async getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:61:21) | 69bc2943c00f593576f3c294
+19.3.2026, 19:12:42 - ERROR - Error fetching comments for event 33507 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:12:42 - ERROR - Error fetching comments for event 274180 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:12:42 - ERROR - Orderbook fetch error for token: 42965146259929605797806965560632904263752338454817822438029661385790791701585 | AxiosError: Request failed with status code 404
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at Unzip.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at Unzip.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:207:15)
+    at async getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:61:21) | 69bc2943c00f593576f3c294
+19.3.2026, 19:12:52 - ERROR - Error fetching comments for event 274180 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:13:06 - ERROR - Error fetching comments for event 274180 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:13:06 - ERROR - Error fetching comments for event 31552 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:13:17 - ERROR - Error fetching comments for event 31552 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:13:18 - ERROR - Error fetching comments for event 158299 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:13:18 - ERROR - Orderbook fetch error for token: 114626996865941019296889646484028317650314844487748867837592153378227935596914 | AxiosError: Request failed with status code 404
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at Unzip.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at Unzip.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:207:15)
+    at async getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:61:21) | 69bc2943c00f593576f3c294
+19.3.2026, 19:13:27 - ERROR - Error fetching comments for event 158299 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:13:27 - ERROR - Error fetching comments for event 143443 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:13:27 - ERROR - Orderbook fetch error for token: 114626996865941019296889646484028317650314844487748867837592153378227935596914 | AxiosError: Request failed with status code 404
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at Unzip.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at Unzip.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:207:15)
+    at async getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:61:21) | 69bc2943c00f593576f3c294
+19.3.2026, 19:13:42 - ERROR - Error fetching comments for event 143443 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:13:43 - ERROR - Error fetching comments for event 30615 | Error: getaddrinfo ENOTFOUND comments.polymarket.com
+    at AxiosError.from (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/AxiosError.js:7:24)
+    at RedirectableRequest.handleRequestError (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:866:27)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:303:15)
+    at async getEventComments (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:72:20) | 69bc2943c00f593576f3c294
+19.3.2026, 19:18:52 - INFO - Server is running on port: 3030
+19.3.2026, 19:19:06 - DEBUG - auth.service - signup with username: guest_39_1773940746930, email: guest_39@guest.com | 69bc2943c00f593576f3c294
+19.3.2026, 19:19:07 - DEBUG - auth.service - login with username: guest_39_1773940746930 | 69bc300bf5d63687148b2c89
+19.3.2026, 19:19:07 - ERROR - Failed to Login Error: Invalid username or password | 69bc300bf5d63687148b2c89
+19.3.2026, 19:19:33 - ERROR - cannot add event message | TypeError: Cannot read properties of undefined (reading '_id')
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:270:17)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc300bf5d63687148b2c89
+19.3.2026, 19:19:33 - ERROR - Failed to add message | TypeError: Cannot read properties of undefined (reading '_id')
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:270:17)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc300bf5d63687148b2c89
+19.3.2026, 19:19:43 - DEBUG - auth.service - login with username: yoav | 69bc300bf5d63687148b2c89
+19.3.2026, 19:19:46 - ERROR - cannot add event message | TypeError: Cannot read properties of undefined (reading '_id')
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:270:17)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:19:46 - ERROR - Failed to add message | TypeError: Cannot read properties of undefined (reading '_id')
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:270:17)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:21:21 - INFO - Server is running on port: 3030
+19.3.2026, 19:21:26 - INFO - Server is running on port: 3030
+19.3.2026, 19:21:27 - ERROR - cannot add event message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:21:27 - ERROR - Failed to add message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:21:39 - ERROR - cannot add event message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:21:39 - ERROR - Failed to add message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:21:41 - ERROR - cannot add event message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:21:41 - ERROR - Failed to add message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:28:03 - ERROR - Orderbook fetch error for token: 42965146259929605797806965560632904263752338454817822438029661385790791701585 | AxiosError: Request failed with status code 404
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at Unzip.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at Unzip.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:207:15)
+    at async getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:61:21) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:28:12 - ERROR - Orderbook fetch error for token: 42965146259929605797806965560632904263752338454817822438029661385790791701585 | AxiosError: Request failed with status code 404
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at Unzip.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at Unzip.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:207:15)
+    at async getOrderBook (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:61:21) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:29:37 - ERROR - Failed to add message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:29:37 - ERROR - cannot add event message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:29:44 - ERROR - cannot add event message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:29:44 - ERROR - Failed to add message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:31:50 - ERROR - cannot add event message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:31:50 - ERROR - Failed to add message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:32:05 - ERROR - cannot add event message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:32:05 - ERROR - Failed to add message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:32:13 - INFO - Server is running on port: 3030
+19.3.2026, 19:33:06 - ERROR - cannot add event message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:33:06 - ERROR - Failed to add message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:43:18 - ERROR - cannot add event message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:43:18 - ERROR - Failed to add message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:53:20 - ERROR - cannot add event message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:53:20 - ERROR - Failed to add message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:54:54 - INFO - Server is running on port: 3030
+19.3.2026, 19:54:58 - ERROR - cannot add event message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:54:58 - ERROR - Failed to add message | Error: Message sender information (by) is missing
+    at Object.addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:267:10)
+    at addEventMsg (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:141:39)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/lib/layer.js:152:17)
+    at /Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:295:15
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:600:14)
+    at param (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/router/index.js:610:14) | 69bc27a2c00f593576f3c292
+19.3.2026, 19:55:54 - INFO - Server is running on port: 3030
+19.3.2026, 19:56:21 - INFO - Server is running on port: 3030
+19.3.2026, 20:34:40 - INFO - Server is running on port: 3030
+19.3.2026, 20:45:04 - INFO - Server is running on port: 3030
+19.3.2026, 20:45:24 - INFO - Server is running on port: 3030
+19.3.2026, 20:46:49 - INFO - Server is running on port: 3030
+19.3.2026, 20:48:07 - INFO - Server is running on port: 3030
+19.3.2026, 21:00:18 - INFO - Server is running on port: 3030
+19.3.2026, 21:02:12 - INFO - Server is running on port: 3030
+19.3.2026, 21:02:16 - DEBUG - auth.service - signup with username: guest_6262_1773946936360, email: guest_6262@guest.com
+19.3.2026, 21:02:16 - DEBUG - auth.service - login with username: guest_6262_1773946936360
+19.3.2026, 21:02:16 - ERROR - Failed to Login Error: Invalid username or password
+19.3.2026, 21:03:01 - INFO - Server is running on port: 3030
+19.3.2026, 21:03:04 - DEBUG - auth.service - signup with username: guest_7877_1773946984823, email: guest_7877@guest.com
+19.3.2026, 21:03:04 - DEBUG - auth.service - login with username: guest_7877_1773946984823
+19.3.2026, 21:03:05 - ERROR - Failed to Login Error: Invalid username or password
+19.3.2026, 21:03:25 - INFO - Server is running on port: 3030
+19.3.2026, 21:03:25 - DEBUG - auth.service - signup with username: guest_779_1773947005632, email: guest_779@guest.com
+19.3.2026, 21:03:25 - DEBUG - auth.service - login with username: guest_779_1773947005632
+19.3.2026, 21:07:28 - INFO - Server is running on port: 3030
+19.3.2026, 21:08:22 - INFO - Server is running on port: 3030
+19.3.2026, 21:08:28 - INFO - Server is running on port: 3030
+19.3.2026, 21:08:52 - INFO - Server is running on port: 3030
+19.3.2026, 21:10:21 - INFO - Server is running on port: 3030
+19.3.2026, 21:10:40 - ERROR - Error fetching CLOB history for token: 48764428286656921488851644351774667118009263342042758531252625616470924946480 | AxiosError: Request failed with status code 400
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchMarketPriceHistory (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:396:15)
+    at async <anonymous> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:341:20)
+    at async Promise.all (index 0)
+    at async Object.getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:353:20)
+    at async getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:100:23) | 69bc487d7fdbc8e1ec209793
+19.3.2026, 21:14:25 - ERROR - Error fetching CLOB history for token: 48764428286656921488851644351774667118009263342042758531252625616470924946480 | AxiosError: Request failed with status code 400
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchMarketPriceHistory (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:396:15)
+    at async <anonymous> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:341:20)
+    at async Promise.all (index 0)
+    at async Object.getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:353:20)
+    at async getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:100:23) | 69bc487d7fdbc8e1ec209793
+19.3.2026, 21:14:25 - ERROR - Error fetching CLOB history for token: 5708561660601459805512817131601230493971589760294984590237789749933853841330 | AxiosError: Request failed with status code 400
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchMarketPriceHistory (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:396:15)
+    at async <anonymous> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:341:20)
+    at async Promise.all (index 1)
+    at async Object.getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:353:20)
+    at async getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:100:23) | 69bc487d7fdbc8e1ec209793
+19.3.2026, 21:14:46 - ERROR - Error fetching CLOB history for token: 48764428286656921488851644351774667118009263342042758531252625616470924946480 | AxiosError: Request failed with status code 400
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchMarketPriceHistory (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:396:15)
+    at async <anonymous> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:341:20)
+    at async Promise.all (index 0)
+    at async Object.getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:353:20)
+    at async getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:100:23) | 69bc487d7fdbc8e1ec209793
+19.3.2026, 21:14:46 - ERROR - Error fetching CLOB history for token: 5708561660601459805512817131601230493971589760294984590237789749933853841330 | AxiosError: Request failed with status code 400
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchMarketPriceHistory (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:396:15)
+    at async <anonymous> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:341:20)
+    at async Promise.all (index 1)
+    at async Object.getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:353:20)
+    at async getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:100:23) | 69bc487d7fdbc8e1ec209793
+19.3.2026, 21:14:46 - ERROR - Error fetching CLOB history for token: 5708561660601459805512817131601230493971589760294984590237789749933853841330 | AxiosError: Request failed with status code 400
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchMarketPriceHistory (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:396:15)
+    at async <anonymous> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:341:20)
+    at async Promise.all (index 2)
+    at async Object.getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:353:20)
+    at async getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:100:23) | 69bc487d7fdbc8e1ec209793
+19.3.2026, 21:15:30 - ERROR - Error fetching CLOB history for token: 5708561660601459805512817131601230493971589760294984590237789749933853841330 | AxiosError: Request failed with status code 400
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchMarketPriceHistory (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:396:15)
+    at async <anonymous> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:341:20)
+    at async Promise.all (index 1)
+    at async Object.getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:353:20)
+    at async getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:100:23) | 69bc487d7fdbc8e1ec209793
+19.3.2026, 21:15:30 - ERROR - Error fetching CLOB history for token: 5708561660601459805512817131601230493971589760294984590237789749933853841330 | AxiosError: Request failed with status code 400
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchMarketPriceHistory (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:396:15)
+    at async <anonymous> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:341:20)
+    at async Promise.all (index 0)
+    at async Object.getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:353:20)
+    at async getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:100:23) | 69bc487d7fdbc8e1ec209793
+19.3.2026, 21:15:53 - ERROR - Error fetching CLOB history for token: 5708561660601459805512817131601230493971589760294984590237789749933853841330 | AxiosError: Request failed with status code 400
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchMarketPriceHistory (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:396:15)
+    at async <anonymous> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:341:20)
+    at async Promise.all (index 1)
+    at async Object.getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:353:20)
+    at async getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:100:23) | 69bc487d7fdbc8e1ec209793
+19.3.2026, 21:15:53 - ERROR - Error fetching CLOB history for token: 5708561660601459805512817131601230493971589760294984590237789749933853841330 | AxiosError: Request failed with status code 400
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchMarketPriceHistory (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:396:15)
+    at async <anonymous> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:341:20)
+    at async Promise.all (index 0)
+    at async Object.getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:353:20)
+    at async getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:100:23) | 69bc487d7fdbc8e1ec209793
+19.3.2026, 21:16:17 - ERROR - Error fetching CLOB history for token: 5708561660601459805512817131601230493971589760294984590237789749933853841330 | AxiosError: Request failed with status code 400
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchMarketPriceHistory (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:396:15)
+    at async <anonymous> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:341:20)
+    at async Promise.all (index 1)
+    at async Object.getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:353:20)
+    at async getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:100:23) | 69bc487d7fdbc8e1ec209793
+19.3.2026, 21:16:17 - ERROR - Error fetching CLOB history for token: 48825140812430902098404528620382945035793471220915259967486864813738884055220 | AxiosError: Request failed with status code 400
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchMarketPriceHistory (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:396:15)
+    at async <anonymous> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:341:20)
+    at async Promise.all (index 2)
+    at async Object.getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:353:20)
+    at async getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:100:23) | 69bc487d7fdbc8e1ec209793
+19.3.2026, 21:16:17 - ERROR - Error fetching CLOB history for token: 5708561660601459805512817131601230493971589760294984590237789749933853841330 | AxiosError: Request failed with status code 400
+    at settle (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/adapters/http.js:844:13)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (file:///Users/yoavnatan/Desktop/Positarget/Positarget--Backend/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchMarketPriceHistory (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:396:15)
+    at async <anonymous> (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:341:20)
+    at async Promise.all (index 0)
+    at async Object.getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.service.ts:353:20)
+    at async getPerformance (/Users/yoavnatan/Desktop/Positarget/Positarget--Backend/api/event/event.controller.ts:100:23) | 69bc487d7fdbc8e1ec209793

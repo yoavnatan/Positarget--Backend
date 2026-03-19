@@ -13,7 +13,7 @@ export const userService = {
 }
 
 async function query(filterBy = {}) {
-    const criteria = _buildCriteria(filterBy)
+    const criteria = _buildCriteria(filterBy as UserFilter)
     try {
         const collection = await dbService.getCollection('user')
         var users = await collection.find(criteria).toArray()
@@ -71,13 +71,23 @@ async function remove(userId: string) {
 
 async function update(user: User) {
     try {
-        // peek only updatable properties
         const userToSave = {
-            _id: ObjectId.createFromHexString(user._id), // needed for the returnd obj
+            _id: new ObjectId(user._id),
             username: user.username,
+            cash: user.cash || 0, // שומר על הערך הקיים או 0
+            portfolio: user.portfolio || [] // שומר על המערך הקיים או מערך ריק
         }
+
         const collection = await dbService.getCollection('user')
-        await collection.updateOne({ _id: userToSave._id }, { $set: userToSave })
+
+        // 2. עדכון ב-DB
+        // שימוש ב-$set מעדכן רק את השדות ששלחנו ושומר על שאר השדות (כמו password) ללא שינוי
+        await collection.updateOne(
+            { _id: userToSave._id },
+            { $set: userToSave }
+        )
+
+        // מחזירים את האובייקט המעודכן (שים לב: ללא סיסמה!)
         return userToSave
     } catch (err) {
         logger.error(`cannot update user ${user._id}`, err)

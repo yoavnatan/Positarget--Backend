@@ -12,6 +12,8 @@ export const authService = {
 	login,
 	getLoginToken,
 	validateToken,
+	createUniqueGuest,
+
 }
 
 async function login(username: string, password: string): Promise<User> {
@@ -67,4 +69,20 @@ function validateToken(loginToken: string) {
 		console.log('Invalid login token')
 	}
 	return null
+}
+
+async function createUniqueGuest() {
+	const randomId = Math.floor(Math.random() * 10000)
+	const guestUser = {
+		username: `guest_${randomId}_${Date.now()}`,
+		password: 'password123', // סיסמה גנרית פנימית
+		email: `guest_${randomId}@temp.com`,
+		firstName: 'Guest',
+		lastName: `#${randomId}`,
+		isAdmin: false,
+		imgUrl: ""
+	}
+
+	// משתמשים ב-signup הקיים שלך כדי לשמור ב-DB
+	return await signup(guestUser as User)
 }

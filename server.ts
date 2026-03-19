@@ -7,7 +7,7 @@ import cookieParser from 'cookie-parser'
 import { authRoutes } from './api/auth/auth.routes.js'
 import { userRoutes } from './api/user/user.routes.js'
 import { eventRoutes } from './api/event/event.routes.js'
-
+// 
 import { setupAsyncLocalStorage } from './middlewares/setupAls.middleware.js'
 
 const app = express()
@@ -35,7 +35,7 @@ app.all('*all', setupAsyncLocalStorage)
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/event', eventRoutes)
-
+// 
 
 // Make every unhandled server-side-route match index.html
 // so when requesting http://localhost:3030/unhandled-route... 
