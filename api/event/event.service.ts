@@ -266,13 +266,14 @@ async function addEventMsg(msg: any): Promise<any> {
 		if (!msg || !msg.by) {
 			throw new Error('Message sender information (by) is missing')
 		}
+		console.log(msg.by)
 
 		const msgToAdd = {
 			txt: msg.txt,
 			by: {
 				_id: msg.by._id,
-				fullname: msg.by.fullname,
-				imgUrl: msg.by.imgUrl || ''
+				username: msg.by.username,
+				// imgUrl: msg.by.imgUrl || ''
 			},
 			aboutEventId: msg.aboutEventId,
 			createdAt: Date.now()

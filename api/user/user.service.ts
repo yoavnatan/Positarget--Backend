@@ -74,6 +74,7 @@ async function update(user: User) {
         const userToSave = {
             _id: new ObjectId(user._id),
             username: user.username,
+            favoriteEvents: user.favoriteEvents || [], // שומר על המערך הקיים או מערך ריק
             cash: user.cash || 0, // שומר על הערך הקיים או 0
             portfolio: user.portfolio || [] // שומר על המערך הקיים או מערך ריק
         }
