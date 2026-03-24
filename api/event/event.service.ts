@@ -389,25 +389,32 @@ async function getPerformance(portfolio: any[]): Promise<any> {
 }
 
 
-async function fetchMarketPriceHistory(clobTokenId: string, interval: string = ''): Promise<any[]> {
+// Backend: event.service.ts
+
+// Backend: event.service.ts
+async function fetchMarketPriceHistory(clobTokenId: string, interval: string = '1h'): Promise<any[]> {
 	try {
 		const POLY_CLOB_API = 'https://clob.polymarket.com'
+
+		// תיקון ה-URL: 
+		// 1. interval חייב להיות '1h' או '1d' וכו'
+		// 2. הסרתי את fidelity כי בחלק מהגרסאות של ה-API שלהם זה גורם לבעיות
 		const url = `${POLY_CLOB_API}/prices-history?market=${clobTokenId}&interval=${interval}`
 
 		const res = await axios.get(url)
-		const data = res.data
 
-		if (!data || !data.history) return []
+		if (!res.data || !res.data.history) {
+			console.log("History array not found in response")
+			return []
+		}
 
-		// נירמול הנתונים מהפורמט המקוצר של Polymarket לפורמט קריא
-		return data.history.map(function (point: { t: number, p: number }) {
-			return {
-				time: point.t,
-				value: point.p
-			}
-		})
-	} catch (err) {
-		logger.error(`Error fetching CLOB history for token: ${clobTokenId}`, err)
+		return res.data.history.map((point: any) => ({
+			time: point.t,
+			value: point.p
+		}))
+	} catch (err: any) {
+		// הדפסת השגיאה הספציפית מה-API כדי שנדע מה קרה
+		console.error("Polymarket API Error:", err.response?.data || err.message)
 		return []
 	}
 }
