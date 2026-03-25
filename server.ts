@@ -37,7 +37,9 @@ app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/event', eventRoutes)
 
-app.get('/*all', (req, res) => {
+import { Request, Response } from 'express'
+
+app.get('/*all', (req: Request, res: Response) => {
     res.sendFile(path.resolve('public/index.html'))
 })
 
