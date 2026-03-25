@@ -36,15 +36,14 @@ app.get('/ping', (req: Request, res: Response) => {
     res.status(200).send('pong');
 });
 
-app.all('*', setupAsyncLocalStorage)
-
+app.all('(.*)', setupAsyncLocalStorage)
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/event', eventRoutes)
 
 import { Request, Response } from 'express'
 
-app.get('/**', (req: Request, res: Response) => {
+app.get('/*', (req: Request, res: Response) => {
     res.sendFile(path.resolve(process.cwd(), 'public', 'index.html'))
 })
 
