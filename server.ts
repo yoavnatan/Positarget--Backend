@@ -44,6 +44,10 @@ app.get('/*all', (req: Request, res: Response) => {
     res.sendFile(path.resolve(process.cwd(), 'public', 'index.html'))
 })
 
+app.get('/ping', (req: Request, res: Response) => {
+    res.status(200).send('pong');
+});
+
 import { logger } from './services/logger.service.js'
 const port = process.env.PORT || 3030
 
