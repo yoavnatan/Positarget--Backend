@@ -32,7 +32,11 @@ if (process.env.NODE_ENV === 'production') {
     app.use(cors(corsOptions))
 }
 
-app.all('*all', setupAsyncLocalStorage)
+app.get('/ping', (req: Request, res: Response) => {
+    res.status(200).send('pong');
+});
+
+app.all('*', setupAsyncLocalStorage)
 
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
@@ -40,13 +44,11 @@ app.use('/api/event', eventRoutes)
 
 import { Request, Response } from 'express'
 
-app.get('/*all', (req: Request, res: Response) => {
+app.get('/**', (req: Request, res: Response) => {
     res.sendFile(path.resolve(process.cwd(), 'public', 'index.html'))
 })
 
-app.get('/ping', (req: Request, res: Response) => {
-    res.status(200).send('pong');
-});
+
 
 import { logger } from './services/logger.service.js'
 const port = process.env.PORT || 3030
