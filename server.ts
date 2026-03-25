@@ -17,7 +17,8 @@ app.use(cookieParser())
 app.use(express.json())
 
 if (process.env.NODE_ENV === 'production') {
-    app.use(express.static(path.resolve('public')))
+    app.use(express.static(path.resolve(process.cwd(), 'public')))
+
 } else {
     const corsOptions = {
         origin: [
@@ -40,7 +41,7 @@ app.use('/api/event', eventRoutes)
 import { Request, Response } from 'express'
 
 app.get('/*all', (req: Request, res: Response) => {
-    res.sendFile(path.resolve('public/index.html'))
+    res.sendFile(path.resolve(process.cwd(), 'public', 'index.html'))
 })
 
 import { logger } from './services/logger.service.js'
