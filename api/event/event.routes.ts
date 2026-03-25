@@ -1,5 +1,5 @@
 import express from 'express'
-import { addEventMsg, getEventById, getEventComments, getEvents, getMarketById, getOrderBook, getPerformance, getPriceHistory, removeEventMsg, searchEvents } from './event.controller'
+import { addEventMsg, getEventById, getEventComments, getEvents, getMarketById, getOrderBook, getPerformance, getPriceHistory, removeEventMsg, searchEvents } from './event.controller.js'
 import { requireAuth } from '../../middlewares/requireAuth.middleware'
 
 const router = express.Router()
