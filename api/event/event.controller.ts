@@ -38,6 +38,7 @@ export async function getEventById(req: Request, res: Response): Promise<void> {
 }
 
 export async function searchEvents(req: Request, res: Response): Promise<void> {
+	console.log('searching...')
 	try {
 		const { q } = req.query
 		const searchTerm = (q as string) || ''

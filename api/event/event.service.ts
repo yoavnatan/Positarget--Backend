@@ -170,34 +170,27 @@ async function getById(eventId: string): Promise<any | null> {
 }
 
 
-async function search(searchTerm: string, limit: number = 200): Promise<any[]> {
+async function search(searchTerm: string, limit: number = 50): Promise<any[]> {
 	if (!searchTerm) return []
 
 	try {
-		const POLY_SEARCH_API = 'https://gamma-api.polymarket.com/events/search'
-		const url = `${POLY_SEARCH_API}?q=${encodeURIComponent(searchTerm)}&optimized=false&limit_per_type=${limit}&search_tags=true`
+		// ✅ השתמש ב-endpoint הרשמי של Polymarket
+		const POLY_SEARCH_API = 'https://gamma-api.polymarket.com/public-search'
+		const url = `${POLY_SEARCH_API}?q=${encodeURIComponent(searchTerm)}&limit_per_type=${limit}&search_tags=true`
 
 		const res = await axios.get(url)
-		const rawResults = res.data.events || []
 
-		// תיקון מבנה הנתונים לפני הנירמול
-		const fixedResults = rawResults.map(function (ev: any) {
-			return {
-				...ev,
-				id: ev.id || ev.eventId || ev._id,
-				tags: Array.isArray(ev.tags)
-					? ev.tags.map((t: any) => typeof t === 'string' ? { label: t } : t)
-					: []
-			}
-		})
+		// התוצאות מגיעות בתוך אובייקט עם מפתח 'events'
+		const rawResults = res.data?.events || []
 
-		return _processRawEvents(fixedResults)
+		// עיבוד התוצאות דרך הנירמול הרגיל שלך
+		return _processRawEvents(rawResults)
+
 	} catch (err) {
 		logger.error(`Search failed for term: ${searchTerm}`, err)
 		throw err
 	}
 }
-
 
 async function getOrderBook(clobTokenId: string): Promise<any> {
 	try {

@@ -99,7 +99,7 @@ function connectRtdsWs() {
 
     rtdsWs.on('message', (raw) => {
         const str = raw.toString()
-        if (str === 'PONG') return
+        if (!str || str === 'PONG') return
         try {
             const msg = JSON.parse(str)
             if (msg.topic === 'comments' && msg.type === 'comment_created') {
